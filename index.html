@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Prime</title>
+    <link rel="icon" href="10007.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background-color:black;
+        }
+        nav{
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+        }
+        video{
+            margin: 0px;
+            top: 50px;
+            width: 100%;
+        }
+        .v1{
+            position: relative;
+        }
+        .a1 h1{
+            display: inline;
+            padding: 20px;
+        }
+        .a1 a{
+            position: relative;
+            font-size: 40px;
+            background-color: black;
+            color: #A5AAAA;
+            font-size: 18px;
+            font-weight: 500;
+            text-decoration: none;
+            margin-left: 40px;
+        }
+        .a1 a::before{
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #fff;
+            transition: .3s;
+
+        }
+        .a1 a:hover::before{
+            width: 100%;
+        }
+
+        .v2{
+            position: absolute;
+            font-size: 40px;
+            color: whitesmoke;
+            left: 50px;
+            top: 1000px;
+        }
+        .v3{
+            position: absolute;
+            color: whitesmoke;
+            font-size: 20px;
+            font-family: sans-serif;
+            top: 1100px;
+            left: 50px;
+        }
+        .s2{
+            width: 100%;
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 80px;
+        }
+        #s21{
+            width: 90%;
+            margin-left: 5%;
+            padding-right: 50px;
+        }
+        #s21 h1{
+            padding-bottom: 20px;
+            font-size: 45px;
+        }
+        #s21 p{
+            font-size: 20px;
+        }
+        #s22{
+            width: 100%;
+            margin-right: 5%;
+        }
+        .d1,.d2,.d3{
+            display: flex;
+            /* width: 25%; */
+        }
+        .d1 a{
+            width: 100%;
+            margin: 10px;
+        }
+        .d1 a img{
+            width: 100%;
+        }
+        .d1 a:hover{
+            background-color: #32789E;
+            box-shadow: -1px 1px 1px 1px ;
+        }
+        .j1{
+            position: absolute;
+            font-size: 50px;
+            left: 1000px;
+            color: whitesmoke;
+            top: 2500px;
+            text-size-adjust: 100px;
+        }
+        .j2{
+            position: absolute;
+            font-size: 20px;
+            left: 900px;
+            top: 2600px;
+            font-family: sans-serif;
+            color: whitesmoke;
+
+        }
+       .j3{
+            position: absolute;
+            color: whitesmoke;
+            left: 220px;
+            font-size: 50px;
+            top: 3200px;
+        }
+        .j4{
+            position: absolute;
+            color: whitesmoke;
+            font-size: 20px;
+            left: 100px;
+            top: 3300px;
+            text-align: center;
+        }
+        .b1 button{
+            position: absolute;
+            color: white;
+            margin-left: 100px;
+            margin-top: 450px;
+            width: 250px;
+            height: 60px;
+            box-sizing: inherit;
+            background-color: #0F79AF;
+            cursor: pointer;
+        }
+        .b2 button{
+            position: absolute;
+            color: white;
+            background-color: #0F79AF;
+            cursor: pointer;
+            width: 250px;
+            height: 60px;
+            margin-top: 550px;
+            margin-left: 1050px;
+        }
+        .b3 button{
+            position: absolute;
+            color: white;
+            background-color: #0F79AF;
+            cursor: pointer;
+            width: 250px;
+            height: 60px; 
+            margin-top: 500px;
+            margin-left: 250px;
+        }
+        i{
+            margin-right: 30px;
+            color: #A5AAAA;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="10001.png" alt="">
+        <div class="a1">
+            <h1><a href="">Home</a></h1>
+            <h1><a href="">AboutUs</a></h1>
+            <h1><a href="">Contact</a></h1>
+            <h1><a href="jana.html">SignIn</a></h1>
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+            
+        </div>
+    </nav>
+    <section class="s1">
+        <div class="v1">
+            <video src="videoprimeintro.mp4"  autoplay loop></video>
+        </div>
+        <div>
+            <h1 class="v2">Movie rentals on Prime Video</h1>
+            <h1 class="v3">Early Access to new movies, before digital subscription</h1>
+            <a class="b1" href="https://www.primevideo.com/storefront/ref=atv_hm_hom_c_9zZ8D2_1_2?merchId=RentBuy&ie=UTF8"><button>Rent Now</button></a>
+            <img src="10004.jpg" width="100%" alt="">      
+        </div> 
+    </section>
+        <section class="s2">
+            <div id="s21">
+                <h1>Your favorite channels all in one place</h1>
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; With Prime Video Channels, find shows and movies from your favorite channels all in one place. Enjoy with an add-on the prime subscription to Channels of your choice</p>
+            </div>
+            <section id="s22">
+                <div class="d1">
+                    <a href="https://www.lionsgate.com/"><img src="10009.jpg"  alt=""></a>
+                    <a href="https://www.discoveryplus.in/"><img src="10010.jpg"  alt=""></a>
+                    <a href="https://www.bbc.co.uk/iplayer"><img src="10011.png"  alt=""></a>
+                </div>
+                <div class="d1">
+                    <a href="https://www.justwatch.com/in/provider/manoramamax"><img src="10012.jpg"  alt=""></a>
+                    <a href="https://www.hoichoi.tv/"><img src="10013.jpg"  alt=""></a>
+                    <a href="https://chaupal.tv/menu-in-01pb-home-tab/a199d7ab-a176-4df9-8924-656ce5c03252"><img src="10014.png"  alt=""></a>
+                </div>
+                <div class="d1">
+                    <a href="https://www.amcplus.com/pages/shows"><img src="10015.png"  alt=""></a>
+                    <a href="https://www.erosnow.com/"><img src="10016.jpg"  alt=""></a>
+                    <a href="https://mubi.com/en/in"><img src="10017.jpg"  alt=""></a>
+                </div>
+                <div class="d1">
+                    <a href="https://vrott.tv/movies"><img src="10018.png" alt=""></a>
+                    <a href="https://music.stingray.com/en/channels/VIB_N1594/all-good-vibes"><img src="10019.png" alt=""></a>
+                    <a href="https://www.docubay.com/createaccount"><img src="10020.jpg" alt=""></a>
+                </div>
+            </section>
+        </section>
+        <section>
+            <div>
+                <h1 class="j1">Easy To Remote</h1>
+                <h1 class="j2">The biggest movies and TV shows are always better on a big <br>screen. Simply plug in your Amazon Fire TV Stick and stream <br> any HDTV. Press the voice button on the remote and say the name of the title you want to watch to find it in seconds.</h1>
+                <a class="b2" href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Feu.primevideo.com%2Fauth%2Freturn%2Fref%3Dav_auth_ap%3F_t%3Dsg-WTcn4GnXG7I5HhxfxtGESYoHWC5HTWeOx35WdaZTT-AAAAAQAAAABlQiRFcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ%26location%3Dhttps%3A%2F%2Fwww.primevideo.com%2Fsignup%3Foffer%253DPrimeFreeTrial%2526ref_%253Ddvm_MLP_IN_Prime_3_triplebutton&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&accountStatusPolicy=P1&openid.assoc_handle=amzn_prime_video_sso_in&openid.mode=checkid_setup&siteState=262-6170073-5322308&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"><button>Get Started</button></a>
+                <img src="10005.jpg" width="100%" alt="">
+            </div>
+            <div>
+                <h1 class="j3">Family Friendly</h1>
+                <h1 class="j4">With easy to use Parental Controls and a dedicated kids page,<br> enjoy secure, ad-free kids entertainment. Kids can enjoy popular <br> TV shows like Peppa Pig, Powerpuff Girls, and Chhota Bheem.</h1>
+                <a class="b3" href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Feu.primevideo.com%2Fauth%2Freturn%2Fref%3Dav_auth_ap%3F_t%3Dsg-WTcn4GnXG7I5HhxfxtGESYoHWC5HTWeOx35WdaZTT-AAAAAQAAAABlQiRFcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ%26location%3Dhttps%3A%2F%2Fwww.primevideo.com%2Fsignup%3Foffer%253DPrimeFreeTrial%2526ref_%253Ddvm_MLP_IN_Prime_3_triplebutton&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&accountStatusPolicy=P1&openid.assoc_handle=amzn_prime_video_sso_in&openid.mode=checkid_setup&siteState=262-6170073-5322308&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"><button>Get Started</button></a>
+                <img src="10006.jpg" width="100%" alt="">
+            </div>
+            <div>
+                <img src="Screenshot 2023-10-25 073125.png" width="100%">
+            </div>
+
+        </section>
+</body>
+</html>
